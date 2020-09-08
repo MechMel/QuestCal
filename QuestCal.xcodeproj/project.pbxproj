@@ -3,18 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D726AD755C000C1F522D992 /* Pods_QuestCalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A75FF15D32AE177595435E /* Pods_QuestCalTests.framework */; };
+		3636969FF480671AFB63CB4E /* Pods_QuestCal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13779484978E9C47E3203CD1 /* Pods_QuestCal.framework */; };
 		6400743E25075D9200972545 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6400743D25075D9200972545 /* AppDelegate.swift */; };
 		6400744025075D9200972545 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6400743F25075D9200972545 /* SceneDelegate.swift */; };
-		6400744225075D9200972545 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6400744125075D9200972545 /* ContentView.swift */; };
 		6400744425075D9400972545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6400744325075D9400972545 /* Assets.xcassets */; };
 		6400744725075D9400972545 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6400744625075D9400972545 /* Preview Assets.xcassets */; };
 		6400744A25075D9400972545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6400744825075D9400972545 /* LaunchScreen.storyboard */; };
 		6400745525075D9400972545 /* QuestCalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6400745425075D9400972545 /* QuestCalTests.swift */; };
 		6400746025075D9400972545 /* QuestCalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6400745F25075D9400972545 /* QuestCalUITests.swift */; };
+		6400748825075F4100972545 /* QST_GoogleAuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6400747625075F4000972545 /* QST_GoogleAuthController.swift */; };
+		6400748925075F4100972545 /* QST_CampaignController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6400747725075F4000972545 /* QST_CampaignController.swift */; };
+		6400748A25075F4100972545 /* QST_GoogleCalendarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6400747825075F4000972545 /* QST_GoogleCalendarController.swift */; };
+		6400748C25075F4100972545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6400747C25075F4000972545 /* Main.storyboard */; };
+		6400748D25075F4100972545 /* QST_QusetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6400747D25075F4000972545 /* QST_QusetTableViewCell.swift */; };
+		6400748E25075F4100972545 /* QST_SettingsGoogleCalendarsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6400747E25075F4000972545 /* QST_SettingsGoogleCalendarsTableViewController.swift */; };
+		6400748F25075F4100972545 /* QST_QuestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6400747F25075F4000972545 /* QST_QuestTableViewController.swift */; };
+		6400749025075F4100972545 /* QuestCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6400748025075F4000972545 /* QuestCellView.swift */; };
+		6400749125075F4100972545 /* QST_Quest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6400748225075F4100972545 /* QST_Quest.swift */; };
+		6400749225075F4100972545 /* QST_GoogleCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6400748325075F4100972545 /* QST_GoogleCalendar.swift */; };
+		6400749325075F4100972545 /* QST_Campaign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6400748425075F4100972545 /* QST_Campaign.swift */; };
+		6400749425075F4100972545 /* QST_GoogleEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6400748525075F4100972545 /* QST_GoogleEvent.swift */; };
+		6400749525075F4100972545 /* QST_Trigger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6400748725075F4100972545 /* QST_Trigger.swift */; };
+		9106305AF9C0AD9B207E6052 /* Pods_QuestCal_QuestCalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73E134B0160CA06DCD2B135 /* Pods_QuestCal_QuestCalUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +50,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13779484978E9C47E3203CD1 /* Pods_QuestCal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuestCal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F3F250056C7C0C7B2C77F9F /* Pods-QuestCal-QuestCalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestCal-QuestCalUITests.release.xcconfig"; path = "Target Support Files/Pods-QuestCal-QuestCalUITests/Pods-QuestCal-QuestCalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		51E81CBB0B3ADC9D903735E4 /* Pods-QuestCalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestCalTests.debug.xcconfig"; path = "Target Support Files/Pods-QuestCalTests/Pods-QuestCalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5827856F53012037A840A0DC /* Pods-QuestCal-QuestCalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestCal-QuestCalUITests.debug.xcconfig"; path = "Target Support Files/Pods-QuestCal-QuestCalUITests/Pods-QuestCal-QuestCalUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6400743A25075D9200972545 /* QuestCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuestCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6400743D25075D9200972545 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6400743F25075D9200972545 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6400744125075D9200972545 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6400744325075D9400972545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6400744625075D9400972545 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6400744925075D9400972545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +67,25 @@
 		6400745B25075D9400972545 /* QuestCalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuestCalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6400745F25075D9400972545 /* QuestCalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestCalUITests.swift; sourceTree = "<group>"; };
 		6400746125075D9400972545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6400747625075F4000972545 /* QST_GoogleAuthController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QST_GoogleAuthController.swift; sourceTree = "<group>"; };
+		6400747725075F4000972545 /* QST_CampaignController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QST_CampaignController.swift; sourceTree = "<group>"; };
+		6400747825075F4000972545 /* QST_GoogleCalendarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QST_GoogleCalendarController.swift; sourceTree = "<group>"; };
+		6400747C25075F4000972545 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6400747D25075F4000972545 /* QST_QusetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QST_QusetTableViewCell.swift; sourceTree = "<group>"; };
+		6400747E25075F4000972545 /* QST_SettingsGoogleCalendarsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QST_SettingsGoogleCalendarsTableViewController.swift; sourceTree = "<group>"; };
+		6400747F25075F4000972545 /* QST_QuestTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QST_QuestTableViewController.swift; sourceTree = "<group>"; };
+		6400748025075F4000972545 /* QuestCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestCellView.swift; sourceTree = "<group>"; };
+		6400748225075F4100972545 /* QST_Quest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QST_Quest.swift; sourceTree = "<group>"; };
+		6400748325075F4100972545 /* QST_GoogleCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QST_GoogleCalendar.swift; sourceTree = "<group>"; };
+		6400748425075F4100972545 /* QST_Campaign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QST_Campaign.swift; sourceTree = "<group>"; };
+		6400748525075F4100972545 /* QST_GoogleEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QST_GoogleEvent.swift; sourceTree = "<group>"; };
+		6400748725075F4100972545 /* QST_Trigger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QST_Trigger.swift; sourceTree = "<group>"; };
+		6413C6A8250762BB00F6B3BD /* QuestCal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuestCal-Bridging-Header.h"; sourceTree = "<group>"; };
+		B8A75FF15D32AE177595435E /* Pods_QuestCalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuestCalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73E134B0160CA06DCD2B135 /* Pods_QuestCal_QuestCalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuestCal_QuestCalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E32560DE42FDAAC696985AAF /* Pods-QuestCalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestCalTests.release.xcconfig"; path = "Target Support Files/Pods-QuestCalTests/Pods-QuestCalTests.release.xcconfig"; sourceTree = "<group>"; };
+		E32EF06606A676C127D3B38A /* Pods-QuestCal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestCal.debug.xcconfig"; path = "Target Support Files/Pods-QuestCal/Pods-QuestCal.debug.xcconfig"; sourceTree = "<group>"; };
+		FEB5EFA997CBB7DD241A0C5D /* Pods-QuestCal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestCal.release.xcconfig"; path = "Target Support Files/Pods-QuestCal/Pods-QuestCal.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3636969FF480671AFB63CB4E /* Pods_QuestCal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D726AD755C000C1F522D992 /* Pods_QuestCalTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +109,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9106305AF9C0AD9B207E6052 /* Pods_QuestCal_QuestCalUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		456BEC1B66E1C333336A7447 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E32EF06606A676C127D3B38A /* Pods-QuestCal.debug.xcconfig */,
+				FEB5EFA997CBB7DD241A0C5D /* Pods-QuestCal.release.xcconfig */,
+				5827856F53012037A840A0DC /* Pods-QuestCal-QuestCalUITests.debug.xcconfig */,
+				1F3F250056C7C0C7B2C77F9F /* Pods-QuestCal-QuestCalUITests.release.xcconfig */,
+				51E81CBB0B3ADC9D903735E4 /* Pods-QuestCalTests.debug.xcconfig */,
+				E32560DE42FDAAC696985AAF /* Pods-QuestCalTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4A41F8EAE40740C201EEB6DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13779484978E9C47E3203CD1 /* Pods_QuestCal.framework */,
+				C73E134B0160CA06DCD2B135 /* Pods_QuestCal_QuestCalUITests.framework */,
+				B8A75FF15D32AE177595435E /* Pods_QuestCalTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6400743125075D9200972545 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +146,8 @@
 				6400745325075D9400972545 /* QuestCalTests */,
 				6400745E25075D9400972545 /* QuestCalUITests */,
 				6400743B25075D9200972545 /* Products */,
+				456BEC1B66E1C333336A7447 /* Pods */,
+				4A41F8EAE40740C201EEB6DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +166,14 @@
 			children = (
 				6400743D25075D9200972545 /* AppDelegate.swift */,
 				6400743F25075D9200972545 /* SceneDelegate.swift */,
-				6400744125075D9200972545 /* ContentView.swift */,
-				6400744325075D9400972545 /* Assets.xcassets */,
-				6400744825075D9400972545 /* LaunchScreen.storyboard */,
+				6400747525075F4000972545 /* Controllers */,
+				6400748125075F4100972545 /* Models */,
+				6400747925075F4000972545 /* UI */,
+				6400748625075F4100972545 /* Utilities */,
 				6400744B25075D9400972545 /* Info.plist */,
+				6400744325075D9400972545 /* Assets.xcassets */,
 				6400744525075D9400972545 /* Preview Content */,
+				6413C6A8250762BB00F6B3BD /* QuestCal-Bridging-Header.h */,
 			);
 			path = QuestCal;
 			sourceTree = "<group>";
@@ -136,6 +204,48 @@
 			path = QuestCalUITests;
 			sourceTree = "<group>";
 		};
+		6400747525075F4000972545 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6400747625075F4000972545 /* QST_GoogleAuthController.swift */,
+				6400747725075F4000972545 /* QST_CampaignController.swift */,
+				6400747825075F4000972545 /* QST_GoogleCalendarController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6400747925075F4000972545 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6400744825075D9400972545 /* LaunchScreen.storyboard */,
+				6400747C25075F4000972545 /* Main.storyboard */,
+				6400747D25075F4000972545 /* QST_QusetTableViewCell.swift */,
+				6400747E25075F4000972545 /* QST_SettingsGoogleCalendarsTableViewController.swift */,
+				6400747F25075F4000972545 /* QST_QuestTableViewController.swift */,
+				6400748025075F4000972545 /* QuestCellView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		6400748125075F4100972545 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6400748225075F4100972545 /* QST_Quest.swift */,
+				6400748325075F4100972545 /* QST_GoogleCalendar.swift */,
+				6400748425075F4100972545 /* QST_Campaign.swift */,
+				6400748525075F4100972545 /* QST_GoogleEvent.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6400748625075F4100972545 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6400748725075F4100972545 /* QST_Trigger.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6400746425075D9400972545 /* Build configuration list for PBXNativeTarget "QuestCal" */;
 			buildPhases = (
+				2D211AA7F9D512B810D8C1E8 /* [CP] Check Pods Manifest.lock */,
 				6400743625075D9200972545 /* Sources */,
 				6400743725075D9200972545 /* Frameworks */,
 				6400743825075D9200972545 /* Resources */,
+				F27428009AC68FA744D3E93C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +272,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6400746725075D9400972545 /* Build configuration list for PBXNativeTarget "QuestCalTests" */;
 			buildPhases = (
+				9FEAE8748624C81009D83064 /* [CP] Check Pods Manifest.lock */,
 				6400744C25075D9400972545 /* Sources */,
 				6400744D25075D9400972545 /* Frameworks */,
 				6400744E25075D9400972545 /* Resources */,
@@ -178,9 +291,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6400746A25075D9400972545 /* Build configuration list for PBXNativeTarget "QuestCalUITests" */;
 			buildPhases = (
+				1F6A207C6B92D8BEBA429A15 /* [CP] Check Pods Manifest.lock */,
 				6400745725075D9400972545 /* Sources */,
 				6400745825075D9400972545 /* Frameworks */,
 				6400745925075D9400972545 /* Resources */,
+				8FADDD7E99ABA08D43AA3920 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -241,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6400744A25075D9400972545 /* LaunchScreen.storyboard in Resources */,
+				6400748C25075F4100972545 /* Main.storyboard in Resources */,
 				6400744725075D9400972545 /* Preview Assets.xcassets in Resources */,
 				6400744425075D9400972545 /* Assets.xcassets in Resources */,
 			);
@@ -262,14 +378,128 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F6A207C6B92D8BEBA429A15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuestCal-QuestCalUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D211AA7F9D512B810D8C1E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuestCal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FADDD7E99ABA08D43AA3920 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuestCal-QuestCalUITests/Pods-QuestCal-QuestCalUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuestCal-QuestCalUITests/Pods-QuestCal-QuestCalUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuestCal-QuestCalUITests/Pods-QuestCal-QuestCalUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FEAE8748624C81009D83064 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuestCalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F27428009AC68FA744D3E93C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuestCal/Pods-QuestCal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuestCal/Pods-QuestCal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuestCal/Pods-QuestCal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6400743625075D9200972545 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6400749425075F4100972545 /* QST_GoogleEvent.swift in Sources */,
+				6400748E25075F4100972545 /* QST_SettingsGoogleCalendarsTableViewController.swift in Sources */,
+				6400749225075F4100972545 /* QST_GoogleCalendar.swift in Sources */,
 				6400743E25075D9200972545 /* AppDelegate.swift in Sources */,
 				6400744025075D9200972545 /* SceneDelegate.swift in Sources */,
-				6400744225075D9200972545 /* ContentView.swift in Sources */,
+				6400749325075F4100972545 /* QST_Campaign.swift in Sources */,
+				6400748925075F4100972545 /* QST_CampaignController.swift in Sources */,
+				6400748A25075F4100972545 /* QST_GoogleCalendarController.swift in Sources */,
+				6400748D25075F4100972545 /* QST_QusetTableViewCell.swift in Sources */,
+				6400749125075F4100972545 /* QST_Quest.swift in Sources */,
+				6400749525075F4100972545 /* QST_Trigger.swift in Sources */,
+				6400749025075F4100972545 /* QuestCellView.swift in Sources */,
+				6400748F25075F4100972545 /* QST_QuestTableViewController.swift in Sources */,
+				6400748825075F4100972545 /* QST_GoogleAuthController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,12 +596,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${inherited}";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "QuestCal/QuestCal-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -420,11 +652,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${inherited}";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "QuestCal/QuestCal-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -432,11 +666,12 @@
 		};
 		6400746525075D9400972545 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E32EF06606A676C127D3B38A /* Pods-QuestCal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"QuestCal/Preview Content\"";
-				DEVELOPMENT_TEAM = 3XGPB3T8S5;
+				DEVELOPMENT_TEAM = 6BFWW87ZUF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = QuestCal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -452,11 +687,12 @@
 		};
 		6400746625075D9400972545 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEB5EFA997CBB7DD241A0C5D /* Pods-QuestCal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"QuestCal/Preview Content\"";
-				DEVELOPMENT_TEAM = 3XGPB3T8S5;
+				DEVELOPMENT_TEAM = 6BFWW87ZUF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = QuestCal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,6 +708,7 @@
 		};
 		6400746825075D9400972545 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51E81CBB0B3ADC9D903735E4 /* Pods-QuestCalTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +731,7 @@
 		};
 		6400746925075D9400972545 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E32560DE42FDAAC696985AAF /* Pods-QuestCalTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +754,7 @@
 		};
 		6400746B25075D9400972545 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5827856F53012037A840A0DC /* Pods-QuestCal-QuestCalUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +775,7 @@
 		};
 		6400746C25075D9400972545 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F3F250056C7C0C7B2C77F9F /* Pods-QuestCal-QuestCalUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
